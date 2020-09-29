@@ -21,7 +21,7 @@ public class ContctServiceImplemnts implements ContactService {
 	public boolean saveContact(Contact contact) {
 		// TODO Auto-generated method stub
 		
-		
+		System.out.println("some chnages online");
 		ContactEntity cns=new ContactEntity();
 		
 		BeanUtils.copyProperties(contact,cns);
